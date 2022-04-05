@@ -1,0 +1,16 @@
+﻿<mah:MetroWindow
+    x:Class="RomFileReader.UI.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:RomFileReader.UI"
+    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Rom file manager"
+    Width="800"
+    Height="450"
+    mc:Ignorable="d">
+    <Grid>
+        <local:MainView x:Name="view" />
+    </Grid>
+</mah:MetroWindow>
